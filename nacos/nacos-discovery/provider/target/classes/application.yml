@@ -1,0 +1,14 @@
+server:
+  port: ${port:56010} # 可通过-Dport传入，默认56010
+
+spring:
+  application:
+    name: provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+logging:
+  level:
+    root: info
+    org.springframework: info
