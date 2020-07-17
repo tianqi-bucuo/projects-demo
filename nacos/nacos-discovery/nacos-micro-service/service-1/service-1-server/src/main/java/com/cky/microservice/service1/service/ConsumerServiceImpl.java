@@ -12,7 +12,7 @@ public class ConsumerServiceImpl implements ConsumerService {
     @Reference
     ProviderService providerService;
 
-    //dubbo接口实现内容
+    // dubbo接口实现内容
     public String service() {
         //远程调用
         String service = providerService.service();
