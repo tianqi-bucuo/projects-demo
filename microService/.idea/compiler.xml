@@ -2,12 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microService" />
+        <module name="consumer" />
+        <module name="gateway" />
+        <module name="provider" />
+        <module name="provider2" />
+        <module name="provider3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="provider-8100" target="1.8" />
+      <module name="provider-8200" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
