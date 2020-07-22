@@ -27,12 +27,68 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircleBreakerController.java" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="InfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoFallbackService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoFallbackService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircleBreakerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/CircleBreakerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="297">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlowLimit2Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlowLimitController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,47 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyGatewayFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/filter/MyGatewayFilter.java">
+      <file leaf-file-name="ProviderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-281">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GatewayApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/GatewayApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/CommonResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentFallbackService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/PaymentFallbackService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="259">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/PaymentService.java">
+      <file leaf-file-name="InfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/InfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,49 +137,70 @@
       <find>web</find>
       <find>blockhan</find>
       <find>持久化</find>
+      <find>proper</find>
+      <find>boot</find>
+      <find>spring-boot</find>
+      <find>payment</find>
+      <find>sen</find>
+      <find>senti</find>
+      <find>handleException</find>
+      <find>blockHandler</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/GatewayApplication.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/ProviderApplication.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/client.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java" />
         <option value="$PROJECT_DIR$/gateway/src/test/java/com/cky/microService/TimeMaker.java" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/filter/MyGatewayFilter.java" />
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
         <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/PaymentMain9003.java" />
-        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/Provider2.java" />
-        <option value="$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/Provider3.java" />
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/client/ProviderClient.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/config/ApplicationContextConfig.java" />
         <option value="$PROJECT_DIR$/provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/PaymentService.java" />
-        <option value="$PROJECT_DIR$/provider2/pom.xml" />
         <option value="$PROJECT_DIR$/provider3/pom.xml" />
-        <option value="$PROJECT_DIR$/provider2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/provider3/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/CircleBreakerController.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/CommonResult.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/Payment.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/entity/CommonResult.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/myHandler/CustomerBlockHandler.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimitController.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/entity/Payment.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/RateLimitController.java" />
         <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/Payment.java" />
-        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/CommonResult.java" />
-        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/PluginController.java" />
+        <option value="$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/Provider3.java" />
         <option value="$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/CommonResult.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/CommonResult.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/SkywalkingController.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/config/PrometheusConfig.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/Provider2.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/Provider.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/Consumer.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/filter/MyGatewayFilter.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/PaymentFallbackService.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/CircleBreakerController.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoFallbackService.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/Gateway.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/controller/InfoController.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/RateLimitController.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit1Controller.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimitController.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/myHandler/CustomerBlockHandler.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/InfoController.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoService.java" />
       </list>
     </option>
   </component>
@@ -186,17 +227,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-58" />
-    <option name="y" value="88" />
-    <option name="width" value="1346" />
-    <option name="height" value="657" />
+    <option name="x" value="7" />
+    <option name="y" value="181" />
+    <option name="width" value="636" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,29 +323,186 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cky" type="462c0819:PsiDirectoryNode" />
               <item name="microService" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
               <item name="microService" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cky" type="462c0819:PsiDirectoryNode" />
               <item name="microService" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="myHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -312,7 +510,7 @@
     <property name="SearchEverywhereHistoryKey" value="result&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/consumer/src/main/java/com/cky/microService/entity/CommonResult.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/第2季当堂代码2020.2.29/cloud2020" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -322,15 +520,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cky.microService" />
       <recent name="com.cky.microService.controller" />
+      <recent name="com.cky.microService" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\consumer\src\main\java\com\cky\microService" />
+      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\gateway\src\main\java\com\cky\microService" />
+      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\gateway\src\main\resources" />
+      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\gateway\src\main\java\com\cky\microService\filter" />
       <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\consumer\src\main\java\com\cky\microService\controller" />
-      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\provider2\src\main\java\com\cky\microService" />
-      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\provider3\src\main\java\com\cky\microService" />
-      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\provider3\src\main\resources" />
+      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\consumer\src\main\java\com\cky\microService" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -346,62 +544,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerApplication">
-    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cky.microService.GatewayApplication" />
-      <module name="gateway" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cky.microService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Provider2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cky.microService.Provider2" />
-      <module name="provider2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cky.microService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cky.microService.ProviderApplication" />
-      <module name="provider" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cky.microService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ProviderApplication2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.cky.microService.ProviderApplication" />
-      <module name="provider" />
-      <option name="VM_PARAMETERS" value="-Dport=8003" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cky.microService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TimeMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cky.microService.TimeMaker" />
-      <module name="gateway" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cky.microService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -423,29 +565,27 @@
     </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.ConsumerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Consumer" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=consumer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.GatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Gateway" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=gateway" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="Provider2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Provider2" />
-    </configuration>
-    <configuration name="Provider3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="provider3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cky.microService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Provider3" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=provider2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.ProviderApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Provider" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=provider" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -470,26 +610,11 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ProviderApplication2" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Application.GatewayApplication" />
-      <item itemvalue="Application.ProviderApplication" />
-      <item itemvalue="Application.TimeMaker" />
-      <item itemvalue="Application.Provider2" />
-      <item itemvalue="Spring Boot.Provider3" />
       <item itemvalue="Spring Boot.Provider2" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Provider3" />
-        <item itemvalue="Application.Provider2" />
-        <item itemvalue="Application.ProviderApplication" />
-        <item itemvalue="Application.GatewayApplication" />
-        <item itemvalue="Application.TimeMaker" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -508,18 +633,24 @@
       <workItem from="1595228325906" duration="8515000" />
       <workItem from="1595237701036" duration="6320000" />
       <workItem from="1595249793454" duration="5005000" />
+      <workItem from="1595291706230" duration="11026000" />
+      <workItem from="1595307336469" duration="2424000" />
+      <workItem from="1595309960893" duration="11561000" />
+      <workItem from="1595327083024" duration="580000" />
+      <workItem from="1595336765762" duration="8454000" />
+      <workItem from="1595377773962" duration="13026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34283000" />
+    <option name="totallyTimeSpent" value="81354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.55445546" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -536,21 +667,21 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7260726" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.7128713" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2980333" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,58 +697,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/client/ProviderClient.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -633,50 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/client.java" />
-    <entry file="file://$PROJECT_DIR$/gateway/src/test/java/com/cky/microService/TimeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/test/java/com/cky/microService/TimeMaker.java" />
     <entry file="file://$PROJECT_DIR$/provider8100/pom.xml" />
     <entry file="file://$PROJECT_DIR$/provider8200/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/entity/Payment.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/entity/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/ProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/config/ApplicationContextConfig.java" />
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/client/ProviderClient.java" />
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/ConsumerController.java" />
@@ -687,81 +730,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/Provider2.java">
+    <entry file="file://$PROJECT_DIR$/provider3/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/provider3/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/entity/CommonResult.java" />
+    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/entity/Payment.java" />
+    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/Provider3.java" />
+    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/controller/PaymentController.java" />
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/ConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/entity/Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="28" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/entity/CommonResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="162">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/config/PrometheusConfig.java" />
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/controller/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/controller/InfoController.java" />
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/filter/MyGatewayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/annotation/SentinelResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/Gateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/myHandler/CustomerBlockHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="232">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/Provider2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/SkywalkingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -770,166 +934,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/entity/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/RateLimitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/PaymentController.java">
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/InfoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/CommonResult.java">
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/Provider3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider3/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/filter/MyGatewayFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/GatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/PaymentFallbackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/PaymentService.java">
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoFallbackService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/CircleBreakerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="297">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -986,7 +1040,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>provider2</last-edited>
+          <last-edited>gateway</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -11,12 +11,12 @@
         <module name="gateway" />
         <module name="provider" />
         <module name="provider2" />
-        <module name="provider3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="provider-8100" target="1.8" />
       <module name="provider-8200" target="1.8" />
+      <module name="provider3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

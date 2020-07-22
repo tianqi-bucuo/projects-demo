@@ -16,7 +16,8 @@ import java.util.Date;
  */
 @Component
 @Slf4j
-public class MyGatewayFilter implements GlobalFilter, Ordered {
+public class MyGatewayFilter //implements GlobalFilter, Ordered
+{
 
     /**
      * 实现请求时要传入username这个参数
@@ -24,22 +25,22 @@ public class MyGatewayFilter implements GlobalFilter, Ordered {
      * @param chain
      * @return
      */
-    @Override
-    public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain){
-
-        log.info("***********come in MyGateWayFilter:  "+new Date());
-        String username = exchange.getRequest().getQueryParams().getFirst("username");
-
-        if(username == null){
-            log.info("*******用户名为null，非法用户，o(╥﹏╥)o");
-            exchange.getResponse().setStatusCode(HttpStatus.NOT_ACCEPTABLE);
-            return exchange.getResponse().setComplete();
-        }
-        return chain.filter(exchange);
-    }
-
-    @Override
-    public int getOrder(){
-        return 0;
-    }
+//    @Override
+//    public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain){
+//
+//        log.info("***********come in MyGateWayFilter:  "+new Date());
+//        String username = exchange.getRequest().getQueryParams().getFirst("username");
+//
+//        if(username == null){
+//            log.info("*******用户名为null，非法用户，o(╥﹏╥)o");
+//            exchange.getResponse().setStatusCode(HttpStatus.NOT_ACCEPTABLE);
+//            return exchange.getResponse().setComplete();
+//        }
+//        return chain.filter(exchange);
+//    }
+//
+//    @Override
+//    public int getOrder(){
+//        return 0;
+//    }
 }

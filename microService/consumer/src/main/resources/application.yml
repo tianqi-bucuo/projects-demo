@@ -19,3 +19,10 @@ spring:
 feign:
   sentinel:
     enabled: true
+
+# 无此配置无法被监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

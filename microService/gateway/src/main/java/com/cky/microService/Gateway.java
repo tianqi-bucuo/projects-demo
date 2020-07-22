@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Provider2 {
+public class Gateway {
 
     public static void main(String[] args) {
-        SpringApplication.run(Provider2.class, args);
+        SpringApplication.run(Gateway.class, args);
     }
 
     @Bean
@@ -21,5 +21,4 @@ public class Provider2 {
             @Value("${spring.application.name}") String applicationName) {
         return (registry) -> registry.config().commonTags("application", applicationName);
     }
-
 }

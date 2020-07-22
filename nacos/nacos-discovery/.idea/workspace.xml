@@ -63,8 +63,8 @@
       <file leaf-file-name="ConsumerController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/nacos/controller/ConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="27">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -171,8 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +183,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,11 +388,12 @@
       <workItem from="1595235875292" duration="35000" />
       <workItem from="1595244020213" duration="795000" />
       <workItem from="1595249750822" duration="2407000" />
+      <workItem from="1595291542469" duration="154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25708000" />
+    <option name="totallyTimeSpent" value="25862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -418,7 +419,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.6089109" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.295764" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -755,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/nacos/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="27">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
