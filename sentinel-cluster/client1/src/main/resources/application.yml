@@ -1,0 +1,11 @@
+server:
+  port: ${port:8002}
+
+spring:
+  application:
+    name: server
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #Sentinel dashboard端口
+        port: 8719  # sentinel端口，默认8719，若被占用依次+1进行扫描
