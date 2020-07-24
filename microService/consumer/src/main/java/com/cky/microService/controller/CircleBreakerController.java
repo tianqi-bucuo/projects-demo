@@ -1,7 +1,5 @@
 package com.cky.microService.controller;
 
-import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.cky.microService.entity.CommonResult;
 import com.cky.microService.entity.Info;
 import com.cky.microService.service.InfoService;
@@ -22,7 +20,6 @@ public class CircleBreakerController{
     //@SentinelResource(value = "fallback") //没有配置
     //@SentinelResource(value = "fallback",fallback = "handlerFallback") //fallback只负责业务异常
     //@SentinelResource(value = "fallback",blockHandler = "blockHandler") //blockHandler只负责sentinel控制台配置违规
-    @SentinelResource(value = "fallback",fallback = "handlerFallback",blockHandler = "blockHandler") // exceptionsToIgnore = {IllegalArgumentException.class}可以让fallback忽略某些异常
     public CommonResult<Info> fallback(@PathVariable("id") Long id) {
         return infoService.query(id);
     }
@@ -33,9 +30,9 @@ public class CircleBreakerController{
         return new CommonResult<>(444,"handlerFallback异常处理, exception内容  "+e.getMessage(), info);
     }
     //blockHandler指定的方法
-    public CommonResult blockHandler(@PathVariable  Long id,BlockException blockException) {
-        Info info = new Info(id,"null");
-        return new CommonResult<>(445,"blockHandler-sentinel限流 " + blockException.getMessage(), info);
-    }
+//    public CommonResult blockHandler(@PathVariable  Long id,BlockException blockException) {
+//        Info info = new Info(id,"null");
+//        return new CommonResult<>(445,"blockHandler-sentinel限流 " + blockException.getMessage(), info);
+//    }
 
 }

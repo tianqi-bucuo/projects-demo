@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: mz-cloud1
+  cloud:
+    gateway:
+      routes:
+      - id: path_route
+        uri: http://127.0.0.1:8001/
+        predicates:
+        - Path=/mz/**

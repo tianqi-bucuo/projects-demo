@@ -13,12 +13,12 @@ spring:
         dashboard: localhost:8080 #Sentinel dashboard端口
         port: 8719  # sentinel端口，默认8719，若被占用依次+1进行扫描
 
+# 暴露prometheus的接口(*:全部暴露)；暴露metrics.tags
 management:
   endpoints:
     web:
       exposure:
         include: '*'
-
   metrics:
     tags:
       application: ${spring.application.name}

@@ -13,7 +13,7 @@ public class ProviderController {
     @Value("${server.port}")
     private String Port;
 
-    @GetMapping("provider")
+    @GetMapping
     public String service(){
         LOG.info("provider invoke");
         return "provider invoke";

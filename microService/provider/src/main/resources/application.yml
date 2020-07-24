@@ -8,25 +8,29 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-    sentinel:
-      transport:
-        dashboard: localhost:8080 #Sentinel dashboard端口
-        port: 8719  # sentinel端口，默认8719，若被占用依次+1进行扫描
-      # sentinel配置持久化到nacos中
-      datasource:
-        ds1:
-          nacos:
-            server-addr: localhost:8848
-            dataId: provider
-            groupId: DEFAULT_GROUP
-            data-type: json
-            rule-type: flow
+#    sentinel:
+#      transport:
+#        dashboard: localhost:8080 #Sentinel dashboard端口
+#        port: 8719  # sentinel端口，默认8719，若被占用依次+1进行扫描
+#      # sentinel配置持久化到nacos中
+#      datasource:
+#        ds1:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: provider
+#            groupId: DEFAULT_GROUP
+#            data-type: json
+#            rule-type: flow
 
+# 暴露prometheus的接口(*:全部暴露)；暴露metrics.tags
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+  metrics:
+    tags:
+      application: ${spring.application.name}
 
 logging:
   level:
