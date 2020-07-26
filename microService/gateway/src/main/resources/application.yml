@@ -8,11 +8,15 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #Sentinel dashboard端口
+        port: 8719  # sentinel端口，默认8719，若被占用依次+1进行扫描
     gateway:
       # 开启后网关限流不生效
 #      discovery:
 #        locator:
-#          enabled: true     # 开启从注册中心动态创建路由的功能，利用微服务名进行路由(负载均衡)
+#          enabled: true     # 开启从注册中心动态创建路由,以服务的controller匹配/**
       # 路由
       routes:
         #路由的ID，没有固定规则但要求唯一，一般定为服务名
@@ -22,8 +26,8 @@ spring:
           # 断言
           predicates:
             # 断言路径相匹配的进行路由,是路由到的那个服务之前要加上的的url前缀
-          - Path=/provider/**
-            #- After=2020-07-20T11:29:45.121+08:00[Asia/Shanghai] # 规定访问时间范围
+#          - Path=/provider/**
+          - After=2020-07-20T11:29:45.121+08:00[Asia/Shanghai] # 规定访问时间范围
             #- Cookie=username,cky  # 带cookie访问
 #          filters:
 #          - AddRequestHeader=X-Request-Foo, Bar
