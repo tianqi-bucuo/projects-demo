@@ -63,18 +63,18 @@ public class GatewayConfiguration {
 
     private void initGatewayRules() {
         Set<GatewayFlowRule> rules = new HashSet<>();
-        rules.add(new GatewayFlowRule("provider")
-                .setCount(1)
-                .setIntervalSec(1)
-        );
-        rules.add(new GatewayFlowRule("provider2")
-                .setCount(1)
-                .setIntervalSec(2)
-                .setBurst(2)
-                .setParamItem(new GatewayParamFlowItem()
-                        .setParseStrategy(SentinelGatewayConstants.PARAM_PARSE_STRATEGY_CLIENT_IP)
-                )
-        );
+//        rules.add(new GatewayFlowRule("provider")
+//                .setCount(1)
+//                .setIntervalSec(1)
+//        );
+//        rules.add(new GatewayFlowRule("provider2")
+//                .setCount(1)
+//                .setIntervalSec(2)
+//                .setBurst(2)
+//                .setParamItem(new GatewayParamFlowItem()
+//                        .setParseStrategy(SentinelGatewayConstants.PARAM_PARSE_STRATEGY_CLIENT_IP)
+//                )
+//        );
 //        rules.add(new GatewayFlowRule("httpbin_route")
 //                .setCount(10)
 //                .setIntervalSec(1)

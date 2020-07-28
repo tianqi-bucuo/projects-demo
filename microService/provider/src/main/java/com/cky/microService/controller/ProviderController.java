@@ -13,9 +13,9 @@ public class ProviderController {
     @Value("${server.port}")
     private String Port;
 
-    @GetMapping
-    public String service(){
-        LOG.info("provider invoke");
-        return "provider invoke";
-    }
+//    @GetMapping
+//    public String service(){
+//        LOG.info("provider invoke");
+//        return "provider invoke";
+//    }
 }
