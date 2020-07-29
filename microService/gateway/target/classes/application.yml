@@ -17,22 +17,27 @@ spring:
         flow:
           nacos:
             server-addr: localhost:8848
-            dataId: provider-flow-rules
-            groupId: GATEWAY_GROUP
-            data-type: json
+            dataId: ${spring.application.name}-flow-rules
+            groupId: SENTINEL_GROUP
+#            data-type: json
             rule-type: flow
 
     gateway:
+#      # 这个配置开启后，可以在url通过服务名找到对应服务(localhost:9000/provider/testA这种形式可以访问到资源)
+#      discovery:
+#        locator:
+#          enabled: true
+#          lower-case-service-id: true
       routes:
         #路由的ID，没有固定规则但要求唯一，一般定为服务名
         - id: provider
-          # 格式为 lb://应用注册服务名：网关会选择服务名的各个服务实例进行路由
+          # 格式为 lb://应用注册服务名：provider服务的负载均衡地址
           uri: lb://provider
           # 断言
           predicates:
-            # 断言路径相匹配的进行路由,是路由到的那个服务之前要加上的的url前缀
           - Path=/provider/**
           filters:
+          # 因为上面的-Path要求加上provider，网关会把加上了provider的url去对应的服务匹配，这样肯定匹配不到，所以要通过filter把provider前缀去掉
           - StripPrefix=1
 
         - id: provider2
@@ -48,7 +53,6 @@ spring:
           - Path=/consumer/**
           filters:
           - StripPrefix=1
-
 
 logging:
   level:
