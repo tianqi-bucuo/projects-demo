@@ -6,8 +6,11 @@ spring:
     name: gateway
   cloud:
     nacos:
+      config:
+        server-addr: 127.0.0.1:8848
       discovery:
         server-addr: 127.0.0.1:8848
+
     sentinel:
       transport:
         dashboard: localhost:8080 #Sentinel dashboard端口
@@ -23,36 +26,36 @@ spring:
             rule-type: flow
 
     gateway:
-#      # 这个配置开启后，可以在url通过服务名找到对应服务(localhost:9000/provider/testA这种形式可以访问到资源)
-#      discovery:
-#        locator:
-#          enabled: true
+       #这个配置开启后，可以在url通过服务名找到对应服务(localhost:9000/provider/testA这种形式可以访问到资源)
+      discovery:
+        locator:
+          enabled: true
 #          lower-case-service-id: true
-      routes:
-        #路由的ID，没有固定规则但要求唯一，一般定为服务名
-        - id: provider
-          # 格式为 lb://应用注册服务名：provider服务的负载均衡地址
-          uri: lb://provider
-          # 断言
-          predicates:
-          - Path=/provider/**
-          filters:
-          # 因为上面的-Path要求加上provider，网关会把加上了provider的url去对应的服务匹配，这样肯定匹配不到，所以要通过filter把provider前缀去掉
-          - StripPrefix=1
-
-        - id: provider2
-          uri: lb://provider2
-          predicates:
-          - Path=/provider2/**
-          filters:
-          - StripPrefix=1
-
-        - id: consumer
-          uri: lb://consumer
-          predicates:
-          - Path=/consumer/**
-          filters:
-          - StripPrefix=1
+#      routes:
+#        #路由的ID，没有固定规则但要求唯一，一般定为服务名
+#        - id: provider
+#          # 格式为 lb://应用注册服务名：provider服务的负载均衡地址
+#          uri: lb://provider
+#          # 断言
+#          predicates:
+#          - Path=/provider/**
+#          filters:
+#          # 因为上面的-Path要求加上provider，网关会把加上了provider的url去对应的服务匹配，这样肯定匹配不到，所以要通过filter把provider前缀去掉
+#          - StripPrefix=1
+#
+#        - id: provider2
+#          uri: lb://provider2
+#          predicates:
+#          - Path=/provider2/**
+#          filters:
+#          - StripPrefix=1
+#
+#        - id: consumer
+#          uri: lb://consumer
+#          predicates:
+#          - Path=/consumer/**
+#          filters:
+                          ##          - StripPrefix=1
 
 logging:
   level:
