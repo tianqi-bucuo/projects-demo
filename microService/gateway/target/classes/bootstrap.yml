@@ -8,18 +8,20 @@ spring:
     nacos:
       config:
         server-addr: 127.0.0.1:8848
+        namespace: 65e4910e-b8d0-46fb-905e-14ad9ec24af0
       discovery:
         server-addr: 127.0.0.1:8848
+        namespace: 65e4910e-b8d0-46fb-905e-14ad9ec24af0
 
     sentinel:
       transport:
-        dashboard: localhost:8080 #Sentinel dashboard端口
+        dashboard: 127.0.0.1:8080 #Sentinel dashboard端口
         port: 8719  # sentinel端口，默认8719，若被占用依次+1进行扫描
       datasource:
         # 名字随便起
         flow:
           nacos:
-            server-addr: localhost:8848
+            server-addr: 127.0.0.1:8848
             dataId: ${spring.application.name}-flow-rules
             groupId: SENTINEL_GROUP
 #            data-type: json
@@ -29,7 +31,7 @@ spring:
        #这个配置开启后，可以在url通过服务名找到对应服务(localhost:9000/provider/testA这种形式可以访问到资源)
       discovery:
         locator:
-          enabled: true
+          enabled: false
 #          lower-case-service-id: true
 #      routes:
 #        #路由的ID，没有固定规则但要求唯一，一般定为服务名
@@ -55,7 +57,19 @@ spring:
 #          predicates:
 #          - Path=/consumer/**
 #          filters:
-                          ##          - StripPrefix=1
+#          - StripPrefix=1
+#naocs:
+#  gateway:
+#    route:
+#      config:
+#        data-id: gateway-router
+#        group: DEFAULT_GROUP
+nacos:
+  gateway:
+    route:
+      config:
+        group: DEFAULT_GROUP
+        data-id: gateway-router
 
 logging:
   level:
