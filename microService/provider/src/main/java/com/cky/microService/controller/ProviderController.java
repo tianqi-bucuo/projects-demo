@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/provide/")
+@RequestMapping("/provider/")
 @Slf4j
 public class ProviderController {
 

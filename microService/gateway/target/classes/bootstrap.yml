@@ -8,10 +8,10 @@ spring:
     nacos:
       config:
         server-addr: 127.0.0.1:8848
-        namespace: 65e4910e-b8d0-46fb-905e-14ad9ec24af0
+        namespace: 85f8c47d-4a31-46c2-b010-057897dc1ea5
       discovery:
         server-addr: 127.0.0.1:8848
-        namespace: 65e4910e-b8d0-46fb-905e-14ad9ec24af0
+        namespace: 85f8c47d-4a31-46c2-b010-057897dc1ea5
 
     sentinel:
       transport:
@@ -22,16 +22,18 @@ spring:
         flow:
           nacos:
             server-addr: 127.0.0.1:8848
-            dataId: ${spring.application.name}-flow-rules
+            namespace: 85f8c47d-4a31-46c2-b010-057897dc1ea5
             groupId: SENTINEL_GROUP
-#            data-type: json
+            dataId: ${spring.application.name}-flow-rules
             rule-type: flow
+#            data-type: json
 
-    gateway:
-       #这个配置开启后，可以在url通过服务名找到对应服务(localhost:9000/provider/testA这种形式可以访问到资源)
-      discovery:
-        locator:
-          enabled: false
+
+#    gateway:
+#       #这个配置开启后，可以在url通过服务名找到对应服务(localhost:9000/provider/testA这种形式可以访问到资源)
+#      discovery:
+#        locator:
+#          enabled: false
 #          lower-case-service-id: true
 #      routes:
 #        #路由的ID，没有固定规则但要求唯一，一般定为服务名
@@ -58,17 +60,12 @@ spring:
 #          - Path=/consumer/**
 #          filters:
 #          - StripPrefix=1
-#naocs:
-#  gateway:
-#    route:
-#      config:
-#        data-id: gateway-router
-#        group: DEFAULT_GROUP
+
 nacos:
   gateway:
     route:
       config:
-        group: DEFAULT_GROUP
+        group: GATEWAY_GROUP
         data-id: gateway-router
 
 logging:

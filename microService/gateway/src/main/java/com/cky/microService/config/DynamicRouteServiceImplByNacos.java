@@ -29,7 +29,6 @@ public class DynamicRouteServiceImplByNacos {
     @Autowired
     private DynamicRouteServiceImpl dynamicRouteService;
 
-
     private ConfigService configService;
 
     @PostConstruct
