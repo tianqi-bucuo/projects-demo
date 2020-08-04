@@ -7,22 +7,22 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 127.0.0.1:8848
-        namespace: 85f8c47d-4a31-46c2-b010-057897dc1ea5
+        server-addr: 120.79.215.41:8848
+        namespace: e2a412bc-6864-4719-9026-00acee88db45
       discovery:
-        server-addr: 127.0.0.1:8848
-        namespace: 85f8c47d-4a31-46c2-b010-057897dc1ea5
+        server-addr: 120.79.215.41:8848
+        namespace: e2a412bc-6864-4719-9026-00acee88db45
 
     sentinel:
       transport:
-        dashboard: 127.0.0.1:8080 #Sentinel dashboard端口
+        dashboard: 120.79.215.41:8080 #Sentinel dashboard端口
         port: 8719  # sentinel端口，默认8719，若被占用依次+1进行扫描
       datasource:
         # 名字随便起
         flow:
           nacos:
-            server-addr: 127.0.0.1:8848
-            namespace: 85f8c47d-4a31-46c2-b010-057897dc1ea5
+            server-addr: 120.79.215.41:8848
+            namespace: e2a412bc-6864-4719-9026-00acee88db45
             groupId: SENTINEL_GROUP
             dataId: ${spring.application.name}-flow-rules
             rule-type: flow

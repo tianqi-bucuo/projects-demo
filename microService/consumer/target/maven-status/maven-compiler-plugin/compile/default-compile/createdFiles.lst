@@ -1,0 +1,7 @@
+com\cky\microService\entity\CommonResult.class
+com\cky\microService\Consumer.class
+com\cky\microService\controller\SkywalkingController.class
+com\cky\microService\entity\Info.class
+com\cky\microService\service\InfoFallbackService.class
+com\cky\microService\controller\CircleBreakerController.class
+com\cky\microService\service\InfoService.class

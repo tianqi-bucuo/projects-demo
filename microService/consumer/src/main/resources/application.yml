@@ -7,8 +7,8 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
-        namespace: 85f8c47d-4a31-46c2-b010-057897dc1ea5
+        server-addr: 120.79.215.41:8848
+        namespace: e2a412bc-6864-4719-9026-00acee88db45
 #    sentinel:
 #      transport:
 #        #配置Sentinel dashboard地址

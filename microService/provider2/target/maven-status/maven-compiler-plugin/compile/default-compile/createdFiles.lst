@@ -1,0 +1,4 @@
+com\cky\microService\entity\Info.class
+com\cky\microService\Provider2.class
+com\cky\microService\entity\CommonResult.class
+com\cky\microService\controller\InfoController.class
