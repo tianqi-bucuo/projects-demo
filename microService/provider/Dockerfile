@@ -1,5 +1,7 @@
-FROM basic:1.0
+FROM basic:latest
 COPY provider-1.0-SNAPSHOT.jar /apps/provider.jar
-CMD ["--server.port=8001"]
 EXPOSE 8001
-ENTRYPOINT ["java", "-jar", "/apps/provider.jar", "-javaagent:/apps/skywalking/agent/skywalking-agent.jar", "-Dskywalking.agent.service_name=provider"]
+ADD start.sh /apps
+RUN chmod +x /apps/start.sh && \
+    echo "tail -f /dev/null" >> /apps/start.sh
+ENTRYPOINT /bin/bash /apps/start.sh
