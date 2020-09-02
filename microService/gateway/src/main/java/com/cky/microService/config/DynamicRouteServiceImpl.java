@@ -18,6 +18,7 @@ import reactor.core.publisher.Mono;
 @Slf4j
 @Service
 public class DynamicRouteServiceImpl implements ApplicationEventPublisherAware {
+
     @Autowired
     private RouteDefinitionWriter routeDefinitionWriter;
 

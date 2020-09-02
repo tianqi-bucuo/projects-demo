@@ -25,6 +25,9 @@
     <SUITE FILE_PATH="coverage/microService$ProviderApplication2.ic" NAME="ProviderApplication2 Coverage Results" MODIFIED="1595242846204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.cky.microService.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/microService$Test1.ic" NAME="Test1 Coverage Results" MODIFIED="1597628121529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cky.microService.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -40,40 +43,109 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="microService" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider/Dockerfile">
+      <file leaf-file-name="FlowLimit2Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="324">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/provider2/Dockerfile">
+      <file leaf-file-name="ClusterClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/service/ClusterClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gateway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/Gateway.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/Dockerfile">
+      <file leaf-file-name="SpringBootApplication.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1566">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/provider2/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonsClientAutoConfiguration.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RELEASE/spring-cloud-commons-2.1.0.RELEASE.jar!/org/springframework/cloud/client/CommonsClientAutoConfiguration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnableAutoConfiguration.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClusterServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/ClusterServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3213">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Provider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/Provider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/start.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,48 +163,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>持久化</find>
-      <find>proper</find>
-      <find>boot</find>
-      <find>spring-boot</find>
-      <find>payment</find>
-      <find>handleException</find>
-      <find>blockHandler</find>
-      <find>sent</find>
-      <find>viewResolversProvider</find>
-      <find>ObjectProvider</find>
-      <find>PostConstruct</find>
-      <find>path_route</find>
-      <find>http</find>
-      <find>simple</find>
-      <find>transport</find>
-      <find>sentinelGatewayFilter</find>
-      <find>adap</find>
-      <find>SentinelGatewayFilter</find>
-      <find>filter</find>
-      <find>sentinel</find>
-      <find>enter</find>
-      <find>senti</find>
-      <find>sen</find>
-      <find>fei</find>
       <find>data</find>
-      <find>entry</find>
       <find>entry(Context</find>
       <find>addRoute</find>
       <find>provider</find>
+      <find>sentinel</find>
+      <find>main</find>
+      <find>trueE</find>
+      <find>add</find>
+      <find>nullcon</find>
+      <find>root</find>
+      <find>origin</find>
+      <find>entry</find>
+      <find>entryWithPriority</find>
+      <find>entrywi</find>
+      <find>entrywithpriority</find>
+      <find>look</find>
+      <find>build</find>
+      <find>getlast</find>
+      <find>LeapArray</find>
+      <find>statisticNode</find>
       <find>nacos</find>
+      <find>boot</find>
+      <find>web</find>
+      <find>log</find>
+      <find>namespace</find>
+      <find>appA</find>
+      <find>APP_NAME</find>
+      <find>cluster-client-config</find>
+      <find>loadServerNamespaceSet</find>
+      <find>cloud</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/PluginController.java" />
-        <option value="$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/Provider3.java" />
-        <option value="$PROJECT_DIR$/provider3/src/main/java/com/cky/microService/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/entity/CommonResult.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/CommonResult.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/SkywalkingController.java" />
-        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/config/PrometheusConfig.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/Provider.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/Consumer.java" />
         <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/PaymentController.java" />
@@ -148,28 +213,21 @@
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/filter/MyGatewayFilter.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/myHandler/CustomerBlockHandler.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimitController.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/CircleBreakerController.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/Gateway.java" />
         <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/Provider2.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/NacosDynamicRouteService.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/GatewayConfig.java" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/DynamicRouteServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ConsumeController.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/GatewayConfiguration.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/DynamicRouteServiceImplByNacos.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/provider2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
-        <option value="$PROJECT_DIR$/provider2/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/Dockerfile" />
         <option value="$PROJECT_DIR$/Dockerfile" />
@@ -177,6 +235,20 @@
         <option value="$PROJECT_DIR$/gateway/start.sh" />
         <option value="$PROJECT_DIR$/gateway/Dockerfile" />
         <option value="$PROJECT_DIR$/provider2/Dockerfile" />
+        <option value="$PROJECT_DIR$/consumer/src/test/java/com/cky/microService/Test1.java" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/GatewayConfiguration.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/DynamicRouteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/config/ClusterClientConfig.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/service/ClusterService.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/config/ClusterClientConfig.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/service/ClusterClient.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/ClusterServer.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java" />
       </list>
     </option>
   </component>
@@ -213,6 +285,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,13 +319,82 @@
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
               <item name="microService" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
@@ -270,6 +413,56 @@
               <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
@@ -282,19 +475,90 @@
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
               <item name="microService" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microService" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
               <item name="microService" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
@@ -313,6 +577,56 @@
               <item name="provider2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="microService" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
@@ -324,16 +638,57 @@
             </path>
             <path>
               <item name="microService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microService" type="462c0819:PsiDirectoryNode" />
-              <item name="provider2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba.csp:sentinel-core:1.6.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba.csp:sentinel-core:1.6.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="sentinel-core-1.6.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba.csp:sentinel-core:1.6.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="sentinel-core-1.6.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba.csp:sentinel-core:1.6.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="sentinel-core-1.6.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba.csp:sentinel-core:1.6.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="sentinel-core-1.6.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="csp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba.csp:sentinel-core:1.6.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="sentinel-core-1.6.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="csp" type="462c0819:PsiDirectoryNode" />
+              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,10 +698,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="start&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/gateway/start.sh&#10;workspace.xml&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/.idea/workspace.xml&#10;gateway&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-api-gateway-adapter-common/1.6.3/sentinel-api-gateway-adapter-common-1.6.3.jar!/com/alibaba/csp/sentinel/adapter/gateway/common/slot/GatewaySlotChainBuilder.class&#10;gate&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/gateway/src/main/java/com/cky/microService/config/GatewayConfiguration.java&#10;NodeSelectorSlot&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/nodeselector/NodeSelectorSlot.class&#10;SphU&#9;null&#9;null&#10;DefaultProcessorSlotChain&#9;null&#9;null&#10;ContextUtil&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.context.ContextUtil&#10;sentinel&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.adapter.spring.webflux.exception.SentinelBlockExceptionHandler&#10;result&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/consumer/src/main/java/com/cky/microService/entity/CommonResult.java" />
+    <property name="SearchEverywhereHistoryKey" value=" actuator&#9;PSI&#9;JAVA://org.springframework.cloud.client.CommonsClientAutoConfiguration.ActuatorConfiguration&#10;SlotChainProvider&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainProvider.class&#10;flowslot&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.slots.block.flow.FlowSlot&#10;statisticNode&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/node/StatisticNode.class&#10;StatisticSlot&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.slots.statistic.StatisticSlot&#10;StatisticNode&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.node.StatisticNode&#10;ClusterBuilderSlot&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot&#10;tset&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/set/TransformedSet.class&#10;nodeselector&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot&#10;NodeSelectorSlot&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot&#10;lookprocess&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.CtSph#lookProcessChain&#10;slot&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-parameter-flow-control/1.6.3/sentinel-parameter-flow-control-1.6.3.jar!/com/alibaba/csp/sentinel/slots/HotParamSlotChainBuilder.class&#10;SlotChainBuilder&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-parameter-flow-control/1.6.3/sentinel-parameter-flow-control-1.6.3.jar!/com/alibaba/csp/sentinel/slots/HotParamSlotChainBuilder.class&#10;builder&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainBuilder.class&#10;processorslot&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/AbstractLinkedProcessorSlot.class&#10;start&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/gateway/start.sh&#10;workspace.xml&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/.idea/workspace.xml&#10;gateway&#9;FILE&#9;jar://F:/JAVA_Code/Maven/Repository/com/alibaba/csp/sentinel-api-gateway-adapter-common/1.6.3/sentinel-api-gateway-adapter-common-1.6.3.jar!/com/alibaba/csp/sentinel/adapter/gateway/common/slot/GatewaySlotChainBuilder.class&#10;gate&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/gateway/src/main/java/com/cky/microService/config/GatewayConfiguration.java&#10;SphU&#9;null&#9;null&#10;DefaultProcessorSlotChain&#9;null&#9;null&#10;ContextUtil&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.context.ContextUtil&#10;sentinel&#9;PSI&#9;JAVA://com.alibaba.csp.sentinel.adapter.spring.webflux.exception.SentinelBlockExceptionHandler&#10;result&#9;FILE&#9;file://F:/JAVA_Code/IDEA_Code/Demos/microService/consumer/src/main/java/com/cky/microService/entity/CommonResult.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WorkSpace" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -356,19 +711,20 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\provider2" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cky.microService.controller" />
-      <recent name="com.cky.microService" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\provider" />
       <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\gateway\src\main\java\com\cky\microService\config" />
       <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\gateway\src\main\resources" />
       <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\gateway\src\main\java\com\cky\microService" />
       <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\gateway\src\main\java\com\cky\microService\filter" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cky.microService.controller" />
+      <recent name="com.cky.microService.config" />
+      <recent name="com.cky.microService" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JAVA_Code\IDEA_Code\Demos\microService\provider2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,7 +740,7 @@
     </option>
     <option name="contentProportion" value="0.19442293" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -407,25 +763,31 @@
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Consumer" />
-      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking-7.0.0\agent\skywalking-agent.jar -Dskywalking.agent.service_name=consumer" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=consumer" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Gateway" />
-      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking-7.0.0\agent\skywalking-agent.jar -Dskywalking.agent.service_name=gateway" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=gateway -Dproject.name=appA -Dcsp.sentinel.dashboard.server=localhost:8080 -Dcsp.sentinel.log.use.pid=true" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="Provider2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Provider2" />
-      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking-7.0.0\agent\skywalking-agent.jar -Dskywalking.agent.service_name=provider2" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=provider2 -Dproject.name=appA -Dcsp.sentinel.dashboard.server=localhost:8080 -Dcsp.sentinel.log.use.pid=true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Provider" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8002 -javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=provider -Dproject.name=appA -Dcsp.sentinel.dashboard.server=localhost:8080 -Dcsp.sentinel.log.use.pid=true" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cky.microService.Provider" />
-      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking-7.0.0\agent\skywalking-agent.jar -Dskywalking.agent.service_name=provider" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\skywalking\agent\skywalking-agent.jar -Dskywalking.agent.service_name=provider -Dproject.name=appA -Dcsp.sentinel.dashboard.server=localhost:8080 -Dcsp.sentinel.log.use.pid=true" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -453,6 +815,7 @@
     <list>
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication (1)" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.Provider2" />
     </list>
@@ -530,11 +893,27 @@
       <workItem from="1596614097399" duration="10844000" />
       <workItem from="1596631060835" duration="6527000" />
       <workItem from="1596674868251" duration="7763000" />
+      <workItem from="1596869674957" duration="54000" />
+      <workItem from="1597368293858" duration="18915000" />
+      <workItem from="1597624725906" duration="6222000" />
+      <workItem from="1597640566515" duration="3691000" />
+      <workItem from="1597656865911" duration="624000" />
+      <workItem from="1597721583958" duration="1502000" />
+      <workItem from="1597798736755" duration="1082000" />
+      <workItem from="1597804919449" duration="802000" />
+      <workItem from="1598416705051" duration="14633000" />
+      <workItem from="1598489429593" duration="8396000" />
+      <workItem from="1598794018179" duration="6450000" />
+      <workItem from="1598834401812" duration="7366000" />
+      <workItem from="1598921188330" duration="3108000" />
+      <workItem from="1598949340229" duration="1751000" />
+      <workItem from="1599007586207" duration="595000" />
+      <workItem from="1599010462127" duration="1198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296540000" />
+    <option name="totallyTimeSpent" value="372929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -551,30 +930,30 @@
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.34871408" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30033004" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6138614" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.68976897" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.7029703" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.5379538" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" weight="0.31467474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.25416037" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.50165015" side_tool="true" weight="0.26096824" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32838285" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32838285" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32838285" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,125 +969,80 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/context/ContextUtil.class</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/CtSph.class</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/CtSph.class</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainProvider.class</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/CtSph.class</url>
-          <line>115</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/DefaultSlotChainBuilder.class</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-api-gateway-adapter-common/1.6.3/sentinel-api-gateway-adapter-common-1.6.3.jar!/com/alibaba/csp/sentinel/adapter/gateway/common/slot/GatewaySlotChainBuilder.class</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="27" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-reactor-adapter/1.6.3/sentinel-reactor-adapter-1.6.3.jar!/com/alibaba/csp/sentinel/adapter/reactor/EntryConfig.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-reactor-adapter/1.6.3/sentinel-reactor-adapter-1.6.3.jar!/com/alibaba/csp/sentinel/adapter/reactor/SentinelReactorSubscriber.class" />
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/Provider2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/InfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/DefaultProcessorSlotChain.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/AbstractLinkedProcessorSlot.class" />
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/SphU.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/CtSph.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainBuilder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainProvider.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/nodeselector/NodeSelectorSlot.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/DefaultSlotChainBuilder.class" />
+    <entry file="jar://F:/JDK/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="537" column="45" selection-start-line="537" selection-start-column="43" selection-end-line="537" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-api-gateway-adapter-common/1.6.3/sentinel-api-gateway-adapter-common-1.6.3.jar!/com/alibaba/csp/sentinel/adapter/gateway/common/slot/GatewaySlotChainBuilder.class" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/1.1.1/nacos-api-1.1.1.jar!/com/alibaba/nacos/api/config/ConfigFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/NacosDynamicRouteService.java" />
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ConsumeController.java" />
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoFallbackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/service/InfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/ConsumerController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/CtSph.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/node/ClusterNode.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/AbstractLinkedProcessorSlot.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/set/TransformedSet.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/Entry.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/node/DefaultNode.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/nodeselector/NodeSelectorSlot.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/context/Context.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/clusterbuilder/ClusterBuilderSlot.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/node/StatisticNode.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/block/flow/FlowSlot.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slots/statistic/StatisticSlot.class" />
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="216">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="1323">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-api-gateway-adapter-common/1.6.3/sentinel-api-gateway-adapter-common-1.6.3.jar!/com/alibaba/csp/sentinel/adapter/gateway/common/rule/GatewayRuleManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/GatewayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/DynamicRouteServiceImplByNacos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-889">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -721,60 +1055,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/myHandler/CustomerBlockHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/ProviderController.java">
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="108">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/SkywalkingController.java">
+    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="1242">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/controller/CircleBreakerController.java">
+    <entry file="jar://F:/JDK/src.zip!/javax/annotation/PostConstruct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="391">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/DynamicRouteServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="-511">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/DynamicRouteServiceImplByNacos.java">
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/Provider2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/com/cky/microService/config/ClusterClientConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/service/ClusterService.java" />
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/config/ClusterClientConfig.java" />
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/cky/microService/entity/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/test/java/com/cky/microService/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/GatewayConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/controller/FlowLimit2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/service/ClusterClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/GatewayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/GatewayConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="162">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/config/ClusterServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -783,128 +1189,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/cky/microService/Gateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="108">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/cky/microService/Provider.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/SpringBootConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml" />
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RELEASE/spring-cloud-commons-2.1.0.RELEASE.jar!/org/springframework/cloud/client/CommonsClientAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="59" column="29" selection-start-line="53" selection-start-column="16" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="486">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        <state relative-caret-position="1566">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/provider2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider2/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="189">
+          <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
         </state>
       </provider>
     </entry>
